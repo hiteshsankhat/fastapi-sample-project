@@ -28,7 +28,7 @@ app.add_middleware(
 
 @app.get("/")
 def root():
-    return {"data": "root"}
+    return {"data": "root s"}
 
 
 app.include_router(auth.router)
